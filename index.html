@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Memorization Game Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="gameTitle"> The Memorization Game</h2>
+        <button id="startButton">Start Game!</button>
+        <div class="timerHolder">
+            <h3>Timer: <span id="timerCounter"></span></h3>
+        </div>
+        <div class="dataHolder">
+            <div class="clicksHolder">
+                <h3 id="clicksText">Clicks: <span id="clicksCounter"></span></h3>
+            </div>
+            <div class="failureHolder">
+                <h3 id="failuresText">Failures: <span id="failuresCounter"></span></h3>
+            </div>
+            <div class="resultHolder">
+                <h3><span id="resultMessage"></span></h3>
+            </div>
+        </div>
+      
+        <div class="gameHolder">
+          
+            <div class="gamebody"></div>
+
+        </div>
+        <button hidden id="resetButton">Reset Game</button>
+    </div>
+
+</body>
+<script src="code.js"></script>
+
+</html>
